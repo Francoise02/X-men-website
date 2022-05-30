@@ -1,0 +1,428 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #FFFF00;
+	width: 100%;
+	height: auto;
+}
+
+/*LOGIN PAGE*/
+
+.header-login {
+	width: 50%;
+	height: 300px;
+	margin-left: 25%;
+}
+
+.logo{
+	width: 400px;
+	height: 200px;
+	margin-left: 35%;
+    margin-top: 8%;
+}
+
+p.user-login{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 30px;
+	letter-spacing: 2px;
+
+}
+
+.header-login form{
+	margin-left: 160px;
+	font-family: sans-serif;  
+}
+
+.header-login form input{
+
+	margin-top: 20px;
+	color: #000;
+	width: 70%;
+	height: 35px;
+	font-size: 17px;
+	letter-spacing: 1px;
+	border-radius: 12px;
+	border: none;
+	background-color: #fff;
+	padding-left: 10px;
+}
+
+.header-login button.login{
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	width: 50%;
+    height: 35px;
+	margin-left: 50px;
+	margin-top: 35px;
+    font-size: 17px;
+    border-radius: 12px;
+	border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.header-login button.logout{
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 120px;
+    border-radius: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.header-login p.add_admin{
+	background-color: #000000;
+	color: #fff;
+    height: 35px;
+    width: 200px;
+    margin-top: 70px;
+    border-radius: 12px;
+	border: none;
+    font-family: sans-serif;
+    margin-right: 100px;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+.header-login a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    float: right;
+}
+.header-login p.signin_error{
+    text-align: center;
+	text-transform: capitalize;
+	font-size: 20px;
+	letter-spacing: 2px;
+    margin-top: 7px;
+}
+
+.header-login p.signin_success{
+    text-align: center;
+	text-transform: capitalize;
+	font-size: 30px;
+	letter-spacing: 2px;
+    margin-top: 7px;
+}
+.wrapper-main p.signup_error{
+    text-align: center;
+	text-transform: capitalize;
+	font-size: 20px;
+	letter-spacing: 2px;
+    margin-top: 7px;
+}
+
+.wrapper-main p.signup_success{
+    text-align: center;
+	text-transform: capitalize;
+	font-size: 20px;
+	letter-spacing: 2px;
+    margin-top: 7px;
+}
+form.add-admin{
+    margin-left: 160px;
+	font-family: sans-serif;
+}
+form.add-admin input{
+	margin-top: 20px;
+    margin-left: 200px;
+	color: #000;
+	width: 50%;
+	height: 35px;
+	font-size: 17px;
+	letter-spacing: 1px;
+	border-radius: 12px;
+	border: none;
+	background-color: #fff;
+	padding-left: 10px;
+}
+
+form.add-admin button{
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	width: 20%;
+    height: 35px;
+	margin-left: 400px;
+	margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    border-radius: 12px;
+	border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form{
+	background-color: yellow;
+	width: 60%;
+	height: 600px;
+	margin-left: 20%;
+
+}
+
+.form input{
+	width: 40%;
+	height: 70px;
+    margin-top: 10%;
+	margin-left: 70px;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.form input.update-hero{
+	margin-top: 10px;
+	margin-left: 70px;
+	width: 100%;
+	height: 150px;
+	font-size: 18px;
+	padding-top: 10px;
+    text-align: justify;
+}
+
+table{
+	margin-top: 20px;
+	margin-left: 70px;
+	width: 90%;
+	height: default;
+	border-collapse: collapse;
+
+}
+
+table th{
+	text-align: center;
+	background-color: #ffffff;
+	font-size: 22px;
+	width: 12%;
+	height: 40px;
+	color: black;
+	background-color: white;
+}
+
+table td{
+	height: 150px;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+
+.bio{
+	width: 45%;
+	height: 30px;
+}
+
+table a {
+	width: 30px;
+	height: 30px;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	padding: 8px;
+}
+.wrapper-main .section-main a{
+    margin-bottom: 50%;
+}
+
+
+
+.view-more{
+	background-color: #ccc;
+	width: 55%;
+	height: 550px;
+	margin-top: 3%;
+	margin-left: 28%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0px 0px 10px 1px #ccc;
+
+}
+
+.view-more h1{
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: #ffff00;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 20px;
+}
+
+
+.view-more h1:after{
+	content: "";
+	background-color: #ccc;
+	position: absolute;
+	width: 15%;
+	height: 3px;
+	left: 0;
+	margin-left: 48%;
+	margin-top: 30px;
+}
+
+.view-more p{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 23px;
+	line-height: 35px;
+	letter-spacing: 3px;
+	padding: 30px;
+}
+
+#welcome form{
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 20%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #000;
+}
+
+#welcome form button{
+
+    width: 100%;
+    padding: 18px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    cursor: pointer;
+}
+
+#welcome form a{
+
+    padding: 18px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+#welcome form button:hover{
+
+    background-color: #ffff00;
+    border: 2px solid;
+    border-color: #000;
+    color: #000;
+}
+
+#welcome form:hover{
+
+  background-color: #ffff00;
+  border: 2px solid;
+  border-color: #000;
+  color: #000;
+}
+
+#welcome form a:hover{
+    color: #000;
+}
+
+#welcome h1{
+    margin-top: 30px;
+}
+
+
+/* view part */
+
+.wrapper-main .section-main .p.add_admin{
+    margin-bottom: 100px;
+}
+.section-main a p.add_admin{
+    width: 8%;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px;
+    text-transform: uppercase;
+    margin-left: 7%;
+    background-color: #000;
+    border-radius: 15px; 
+    text-decoration: none;
+    margin-bottom: 200%;  
+}
+
+.display a{
+    text-decoration: none;
+    margin-left: 80px;
+    margin: top 20px;
+    background-color: black;
+    width: 35px;
+}
+
+.hero a{
+    border: none;
+    background-color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 1100px;
+    border-radius: 12px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.update a{
+    border: none;
+    background-color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 1100px;
+    border-radius: 12px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.display a{
+    border: none;
+    background-color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 1100px;
+    border-radius: 12px;
+    margin-bottom: 80px;
+    margin-top: 15px;
+    color: white;
+}
+
+.form textarea{
+	margin-top: 10px;
+	margin-left: 70px;
+	width: 90.5%;
+	height: 150px;
+	font-size: 18px;
+	padding-top: 10px;
+}
