@@ -23,9 +23,9 @@ update and delete operations on the database. Any user should be able to read da
 * Screen recording: https://www.loom.com/share/cbdd51525c664f03883a7919ba95dd4b
 
 ## Authors
+* Mukantwari Françoise
 * Leticia Darko
 * Mukamanzi Vanessa
-* Mukantwari Françoise
 * Oluwatomisin Bamidele
 * Kevin Onyancha
 #� �X�-�m�e�n�-�w�e�b�s�i�t�e�
